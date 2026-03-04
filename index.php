@@ -1,6 +1,6 @@
 <?php
 
-$base_url = "https://9wyd8fvve7.execute-api.ap-south-1.amazonaws.com/dev/user";
+$base_url = "https://n6c8z4dtf8.execute-api.ap-south-1.amazonaws.com/dev/user";
 $response = "";
 $formattedResponse = "";
 
