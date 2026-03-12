@@ -1,3 +1,17 @@
-https://9wyd8fvve7.execute-api.ap-south-1.amazonaws.com/dev
-
-https://n6c8z4dtf8.execute-api.ap-south-1.amazonaws.com/Dev
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "dynamodb:GetItem",
+        "dynamodb:PutItem",
+        "dynamodb:UpdateItem",
+        "dynamodb:DeleteItem",
+        "dynamodb:Scan",
+        "dynamodb:Query"
+      ],
+      "Resource": "arn:aws:dynamodb:ap-south-1:556684849960:table/UsersTable"
+    }
+  ]
+}
