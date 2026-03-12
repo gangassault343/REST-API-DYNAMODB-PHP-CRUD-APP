@@ -1,0 +1,21 @@
+Lambda-EC2-Eventbridge-DynamoDB
+AmazonDynamoDBFullAccess
+AmazonDynamoDBFullAccess_v2
+AmazonEC2FullAccess
+AWSLambdaBasicExecutionRole
+CloudWatchFullAccess
+CloudWatchFullAccessV2
+CloudWatchLogsReadOnlyAccess
+My-policy ->
+    {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:PutItem"
+            ],
+            "Resource": "arn:aws:dynamodb:ap-south-1:556684849960:table/EC2CloudTrailLogs"
+        }
+    ]
+}
