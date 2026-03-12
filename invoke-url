@@ -1,3 +1,6 @@
+https://xneniqjp93.execute-api.ap-south-1.amazonaws.com/dev/user/102  //iNVOKE URL
+
+//Bucket Permission for IAM
 {
   "Version": "2012-10-17",
   "Statement": [
